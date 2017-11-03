@@ -1,0 +1,44 @@
+Crear paquete de npm.
+
+1. Tener instalado node  y npm en la pc.
+   node -v
+   npm -v
+
+2. Loguear nuestra terminal en npm por consola 
+	npm set init.author.name "Germain Bueno"
+        npm set init.author.email "gerbless@gmail.com"
+        npm set init.author.url "http://facebook.com/gerbless"
+	npm login
+
+3. dentro del directorio donde se creara el paquete ejecutar
+	mpm init
+	- configuramos:
+		nombre del paquete
+		version
+		descripcion
+		entry point: archivo principal
+		test command: comando para ejecutarlos
+		git repositori
+
+4. Instalar babel desde la consola para poser transpilar el código
+y se pueda usar desde cualquier navegador. en el sitio web de bal indica como se usa
+	npm install --save-dev babel-cli
+	Agregar scripts "build": "babel src/platzom.js -d dist"
+	Crear archivo .babelrc
+	Agregarle al archivo {"presets":["env"]}
+	npm install babel-preset-env --save-dev
+	correr el comando build
+	main": "dist/src/platzom.js",
+	
+5. Escribiento test
+		npm install --save-dev- mocha chai
+		escribir los test. ver ejemplo en carpeta test
+
+6. publicar el modulo en npm
+
+
+
+
+
+
+

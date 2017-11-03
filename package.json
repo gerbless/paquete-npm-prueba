@@ -1,0 +1,35 @@
+{
+  "name": "primer_paquete",
+  "version": "0.1.0",
+  "description": "PAQUETE DE PRUEBA PARA COMENZAR A PUBLICAR PAQUETES",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test" : "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerbless/paquete-npm-prueba.git"
+  },
+  "keywords": [
+    "prueba",
+    "npm",
+    "practica",
+    "gerbless",
+    "germain",
+    "bueno",
+    "germainbueno"
+  ],
+  "author": "Germain Bueno <gerbless@gmail.com> (http://facebook.com/gerbless)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gerbless/paquete-npm-prueba/issues"
+  },
+  "homepage": "https://github.com/gerbless/paquete-npm-prueba#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
